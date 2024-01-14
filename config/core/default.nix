@@ -109,6 +109,79 @@
         };
         action = "v:count == 0 ? 'gk' : 'k'";
       }
+      # Windows moving
+      {
+        mode = "n";
+        key = "<C-h>";
+        options = {
+          remap = true;
+          desc = "Go to left window";
+        };
+        action = "<C-w>h";
+      }
+      {
+        mode = "n";
+        key = "<C-Left>";
+        options = {
+          remap = true;
+          desc = "Go to left window";
+        };
+        action = "<C-w>h";
+      }
+      {
+        mode = "n";
+        key = "<C-j>";
+        options = {
+          remap = true;
+          desc = "Go to lower window";
+        };
+        action = "<C-w>j";
+      }
+      {
+        mode = "n";
+        key = "<C-Down>";
+        options = {
+          remap = true;
+          desc = "Go to lower window";
+        };
+        action = "<C-w>j";
+      }
+      {
+        mode = "n";
+        key = "<C-k>";
+        options = {
+          remap = true;
+          desc = "Go to upper window";
+        };
+        action = "<C-w>k";
+      }
+      {
+        mode = "n";
+        key = "<C-Up>";
+        options = {
+          remap = true;
+          desc = "Go to upper window";
+        };
+        action = "<C-w>k";
+      }
+      {
+        mode = "n";
+        key = "<C-l>";
+        options = {
+          remap = true;
+          desc = "Go to right window";
+        };
+        action = "<C-w>l";
+      }
+      {
+        mode = "n";
+        key = "<C-Right>";
+        options = {
+          remap = true;
+          desc = "Go to right window";
+        };
+        action = "<C-w>l";
+      }
     ];
 
     plugins.nix.enable = true;
