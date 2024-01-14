@@ -71,6 +71,46 @@
       markdown_recommended_style = 0;
     };
 
+    keymaps = [
+      # better up/down
+      {
+        mode = ["n" "x"];
+        key = "j";
+        options = {
+          expr = true;
+          silent = true;
+        };
+        action = "v:count == 0 ? 'gj' : 'j'";
+      }
+      {
+        mode = ["n" "x"];
+        key = "<Down>";
+        options = {
+          expr = true;
+          silent = true;
+        };
+        action = "v:count == 0 ? 'gj' : 'j'";
+      }
+      {
+        mode = ["n" "x"];
+        key = "k";
+        options = {
+          expr = true;
+          silent = true;
+        };
+        action = "v:count == 0 ? 'gk' : 'k'";
+      }
+      {
+        mode = ["n" "x"];
+        key = "<Up>";
+        options = {
+          expr = true;
+          silent = true;
+        };
+        action = "v:count == 0 ? 'gk' : 'k'";
+      }
+    ];
+
     plugins.nix.enable = true;
     plugins.nix-develop.enable = true;
   };
