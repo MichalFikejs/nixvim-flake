@@ -111,7 +111,7 @@
       }
       # Windows moving
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-h>";
         options = {
           remap = true;
@@ -120,7 +120,7 @@
         action = "<C-w>h";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-Left>";
         options = {
           remap = true;
@@ -129,7 +129,7 @@
         action = "<C-w>h";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-j>";
         options = {
           remap = true;
@@ -138,7 +138,7 @@
         action = "<C-w>j";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-Down>";
         options = {
           remap = true;
@@ -147,7 +147,7 @@
         action = "<C-w>j";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-k>";
         options = {
           remap = true;
@@ -156,7 +156,7 @@
         action = "<C-w>k";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-Up>";
         options = {
           remap = true;
@@ -165,7 +165,7 @@
         action = "<C-w>k";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-l>";
         options = {
           remap = true;
@@ -174,7 +174,7 @@
         action = "<C-w>l";
       }
       {
-        mode = "n";
+        mode = ["n" "t"];
         key = "<C-Right>";
         options = {
           remap = true;
