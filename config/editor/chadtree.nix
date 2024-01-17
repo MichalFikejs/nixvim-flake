@@ -10,6 +10,6 @@
         desc = "Explorer CHADTree";
         silent = true;
       };
-    } 
+   } 
   ];
 }
