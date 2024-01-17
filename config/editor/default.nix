@@ -3,6 +3,7 @@
     ./chadtree.nix
     ./colorizer.nix
     ./comment.nix
+    ./flash.nix
     ./gitsigns.nix
     ./harpoon.nix
     ./illuminate.nix
