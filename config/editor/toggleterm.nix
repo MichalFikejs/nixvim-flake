@@ -26,5 +26,15 @@
       key = "<leader>gg";
       options.desc = "LazyGit";
     }
+    {
+      action = "<C-\\><C-n>";
+      key = "<C-t>";
+      mode = "t";
+      options = {
+        desc = "Exit ToggleTerm";
+        noremap = true;
+        silent = true;
+      };
+    }
   ];
 }

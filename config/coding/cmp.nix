@@ -45,6 +45,7 @@
       }
       {name = "path";}
       {name = "emoji";}
+      {name = "cmdli";}
     ];
 
     experimental = {

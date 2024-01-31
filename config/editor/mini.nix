@@ -44,6 +44,16 @@
     {
       action = ''
         function()
+          vim.g.minipairs_disable = not vim.g.minipairs_disable
+        end
+        '';
+        lua = true;
+        key = "<leader>up";
+        options.desc = "Toggle auto pairs";
+    }
+    {
+      action = ''
+        function()
           local bd = require("mini.bufremove").delete
           if vim.bo.modified then
             local choice = vim.fn.confirm(("Save changes to %q?"):format(vim.fn.bufname()), "&Yes\n&No\n&Cancel")
