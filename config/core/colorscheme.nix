@@ -1,8 +1,8 @@
 {
   colorschemes = {
-    tokyonight = {
+    catppuccin = {
       enable = true;
-      style = "night";
+      flavour = "mocha";
     }; 
   };
 }
