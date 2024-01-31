@@ -1,8 +1,19 @@
 {
   colorschemes = {
-    tokyonight = {
+    catppuccin = {
       enable = true;
-      style = "night";
+      flavour = "mocha";
+      integrations = {
+        cmp = true;
+        gitsigns = true;
+        treesitter = true;
+        harpoon = true;
+        noice = true;
+        lsp_saga = true;
+        lsp_trouble = true;
+        which_key = true;
+        telescope.enabled = true;
+      };
     }; 
   };
 }

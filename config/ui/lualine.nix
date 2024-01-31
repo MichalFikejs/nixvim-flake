@@ -1,7 +1,7 @@
 {
   plugins.lualine = {
     enable = true;
-    theme = "tokyonight";
+    theme = "catppuccin";
     globalstatus = true;
     disabledFiletypes.statusline = ["dashboard" "alpha" "starter"];
 
